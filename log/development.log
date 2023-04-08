@@ -60,3 +60,13 @@ Entrypoint application = js/application-271cf8931bb708d2d8bb.js js/application-2
 Completed 200 OK in 5150ms (Views: 5141.4ms | ActiveRecord: 0.0ms | Allocations: 21970)
 
 
+Started GET "/" for ::1 at 2023-04-08 17:30:52 +0900
+Processing by GamesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering games/index.html.erb within layouts/application
+  Rendered games/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 3705)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 4290)
+
+
