@@ -14,3 +14,49 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 20ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 3705)
 
 
+Started GET "/" for ::1 at 2023-04-08 17:24:29 +0900
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/yi.i_41/.rbenv/versions/3.0.5/lib/ruby/gems/3.0.0/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/yi.i_41/.rbenv/versions/3.0.5/lib/ruby/gems/3.0.0/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.2ms | Allocations: 506)
+Completed 200 OK in 20ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 3724)
+
+
+Started GET "/index" for ::1 at 2023-04-08 17:24:41 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+Started GET "/" for ::1 at 2023-04-08 17:26:36 +0900
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/yi.i_41/.rbenv/versions/3.0.5/lib/ruby/gems/3.0.0/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/yi.i_41/.rbenv/versions/3.0.5/lib/ruby/gems/3.0.0/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.7ms | Allocations: 506)
+Completed 200 OK in 21ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 3725)
+
+
+Started GET "/" for ::1 at 2023-04-08 17:28:00 +0900
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by GamesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering games/index.html.erb within layouts/application
+  Rendered games/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 371)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/yi.i_41/Desktop/prompt-guessing-game/Team_KaishinoIchigeki/public/packs
+[Webpacker] Hash: 804a8059a304061a3e74
+Version: webpack 4.46.0
+Time: 2334ms
+Built at: 2023/04/08 17:28:05
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-271cf8931bb708d2d8bb.js    121 KiB  application  [emitted] [immutable]  application
+js/application-271cf8931bb708d2d8bb.js.map    133 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-271cf8931bb708d2d8bb.js js/application-271cf8931bb708d2d8bb.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 493 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5138.2ms | Allocations: 18324)
+Completed 200 OK in 5150ms (Views: 5141.4ms | ActiveRecord: 0.0ms | Allocations: 21970)
+
+
