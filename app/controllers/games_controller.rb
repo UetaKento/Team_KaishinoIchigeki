@@ -1,4 +1,5 @@
 class GamesController < ApplicationController
+
   def top
   end
 
@@ -7,4 +8,5 @@ class GamesController < ApplicationController
 
   def result
   end
+
 end

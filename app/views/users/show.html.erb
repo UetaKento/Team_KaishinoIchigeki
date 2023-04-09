@@ -1,0 +1,10 @@
+<h1>users#show</h1>
+<p>名前 : <%= @user.name %></p>
+<p>メールアドレス : <%= @user.email %></p>
+
+<% if current_user.id == @user.id %>
+  <%= link_to "edit", edit_user_registration_path %>
+<% end %>
+<br>
+<br>
+<%= link_to "top page", games_top_path %>
