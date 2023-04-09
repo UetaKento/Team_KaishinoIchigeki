@@ -1,4 +1,10 @@
 class GamesController < ApplicationController
-  def index
+  def top
+  end
+
+  def play
+  end
+
+  def result
   end
 end
