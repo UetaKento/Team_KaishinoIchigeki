@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+  }
+ 
+  .bg {
+    background-color: #557294;
+  }
+  
+  .display-3{
+    background-color:rgba(125, 160, 203,0);
+  }
