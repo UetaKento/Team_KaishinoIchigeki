@@ -1,18 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    box-sizing: border-box;
-    color:white;
-  }
- 
   body{
     background-color: #749ac4;
   }
-
   
   .display-3{
     background-color:rgba(125, 160, 203,0);
+    text-shadow: 8px 8px 16px #1a1a1a;
   }
 
   @media screen {
