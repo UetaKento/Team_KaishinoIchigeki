@@ -1,14 +1,29 @@
 * {
     margin: 0;
     padding: 0;
+    background-size: cover;
     box-sizing: border-box;
     color:white;
   }
  
-  .bg {
-    background-color: #557294;
+  body{
+    background-color: #749ac4;
   }
+
   
   .display-3{
     background-color:rgba(125, 160, 203,0);
   }
+
+  @media screen {
+    .bg {
+      background-color: #749ac4;
+      margin-top: 50%;
+    }  
+}
+@media screen and (min-width:600px) {
+    .bg {
+      background-color: #749ac4;
+      margin-top: 0;
+    }  
+}
